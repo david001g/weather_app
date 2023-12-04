@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:weather_app/src/core/error/exception.dart';
-import 'package:weather_app/src/features/data/geolocator/geolocator_datasource.dart';
+import 'package:weather_app/src/features/data/datasources/geolocator/geolocator_datasource.dart';
 
 class GeoLocatorDataSourceImpl implements GeoLocatorDataSource {
   GeoLocatorDataSourceImpl();

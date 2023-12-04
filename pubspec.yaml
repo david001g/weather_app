@@ -29,6 +29,7 @@ dependencies:
   adaptive_theme: ^3.4.1
   gap: ^3.0.1
   flutter_svg: ^2.0.9
+  firebase_core: ^2.24.0
 
 
 

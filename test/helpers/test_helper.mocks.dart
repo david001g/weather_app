@@ -12,10 +12,10 @@ import 'package:http/http.dart' as _i6;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i13;
 import 'package:weather_app/src/core/error/failure.dart' as _i8;
+import 'package:weather_app/src/features/data/datasources/geolocator/geolocator_datasource.dart'
+    as _i12;
 import 'package:weather_app/src/features/data/datasources/remote/remote_datasource.dart'
     as _i10;
-import 'package:weather_app/src/features/data/geolocator/geolocator_datasource.dart'
-    as _i12;
 import 'package:weather_app/src/features/data/models/weather_model.dart' as _i3;
 import 'package:weather_app/src/features/domain/entities/weather_entity.dart'
     as _i9;
