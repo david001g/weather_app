@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:weather_app/injection_container.dart';
 import 'package:weather_app/src/app.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -12,7 +13,10 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   setupLocator();
-  runApp(const MainApp());
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
+  ]).then((value) => runApp(const MainApp()));
 }
 
 class MainApp extends StatelessWidget {

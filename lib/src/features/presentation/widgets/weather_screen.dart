@@ -44,14 +44,14 @@ class WeatherScreen extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Icon(Icons.location_on),
+        Icon(Icons.location_on, size: 20.w,),
         Gap(10.h),
         Text(
           weatherEntity.cityName.toUpperCase(),
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         Gap(80.h),
-        Lottie.asset(lottieAsset),
+        Lottie.asset(lottieAsset, height: 200.h),
         Gap(80.h),
         Text(
           ' ${weatherEntity.temperatureCelcius}°',
@@ -60,9 +60,6 @@ class WeatherScreen extends StatelessWidget {
         Gap(10.h),
         ElevatedButton(
             onPressed: () => context.pushNamed(AppRoutes.about.name),
-            style: ElevatedButton.styleFrom(
-              fixedSize: Size(150.w, 10.h),
-            ),
             child: Text(
               'About the app',
               style: Theme.of(context).textTheme.labelMedium,

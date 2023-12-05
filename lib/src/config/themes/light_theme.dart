@@ -62,6 +62,7 @@ ThemeData lightTheme() {
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
+        fixedSize: MaterialStateProperty.all(Size(150.w, 50.h)),
         backgroundColor: MaterialStateProperty.all(buttonColor),
         shape: MaterialStateProperty.all(
           RoundedRectangleBorder(

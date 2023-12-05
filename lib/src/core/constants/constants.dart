@@ -10,7 +10,7 @@ class Urls {
 class Lotties{
   static const String clearSky = 'assets/clear_sky.json';
   static const String fewClouds = 'assets/clouds.json';
-  static const String scatteredClouds = 'assets/clouds.json';
+  static const String scatteredClouds = 'assets/only_clouds.json';
   static const String brokenClouds = 'assets/mist.json';
   static const String showerRain = 'assets/rain.json';
   static const String rain = 'assets/rain.json';

@@ -11,7 +11,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    context.read<WeatherBloc>().add(const OnGetCityName());
+    //context.read<WeatherBloc>().add(const OnCityChanged('New York'));
+    //context.read<WeatherBloc>().add(const OnGetCityName());
     return Scaffold(
       body: SafeArea(
         child: Center(
